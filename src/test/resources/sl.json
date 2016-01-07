@@ -1,0 +1,197 @@
+{
+  "ms": 140,
+  "status": "success",
+  "data": {
+    "BusGroups": [
+      {
+        "Type": "Buss",
+        "Title": "Sofiaskolan",
+        "Departures": [
+          {
+            "LineNumber": "2",
+            "Destination": "Sofia",
+            "ExpectedDateTime": "2015-12-26T11:15:42",
+            "DisplayTime": "2 min",
+            "Deviations": [ ],
+            "StopPointNumber": "10256"
+          },
+          {
+            "LineNumber": "2",
+            "Destination": "Norrtull",
+            "ExpectedDateTime": "2015-12-26T11:18:50",
+            "DisplayTime": "5 min",
+            "Deviations": [ ],
+            "StopPointNumber": "10982"
+          },
+          {
+            "LineNumber": "2",
+            "Destination": "Sofia",
+            "ExpectedDateTime": "2015-12-26T11:22:42",
+            "DisplayTime": "9 min",
+            "Deviations": [ ],
+            "StopPointNumber": "10256"
+          },
+          {
+            "LineNumber": "2",
+            "Destination": "Norrtull",
+            "ExpectedDateTime": "2015-12-26T11:26:50",
+            "DisplayTime": "13 min",
+            "Deviations": [ ],
+            "StopPointNumber": "10982"
+          },
+          {
+            "LineNumber": "66",
+            "Destination": "Reimersholme",
+            "ExpectedDateTime": "2015-12-26T11:28:30",
+            "DisplayTime": "11:28",
+            "Deviations": [ ],
+            "StopPointNumber": "10982"
+          },
+          {
+            "LineNumber": "2",
+            "Destination": "Sofia",
+            "ExpectedDateTime": "2015-12-26T11:31:11",
+            "DisplayTime": "17 min",
+            "Deviations": [ ],
+            "StopPointNumber": "10256"
+          },
+          {
+            "LineNumber": "66",
+            "Destination": "Sofia",
+            "ExpectedDateTime": "2015-12-26T11:31:29",
+            "DisplayTime": "17 min",
+            "Deviations": [ ],
+            "StopPointNumber": "10256"
+          },
+          {
+            "LineNumber": "2",
+            "Destination": "Norrtull",
+            "ExpectedDateTime": "2015-12-26T11:33:50",
+            "DisplayTime": "20 min",
+            "Deviations": [ ],
+            "StopPointNumber": "10982"
+          },
+          {
+            "LineNumber": "2",
+            "Destination": "Sofia",
+            "ExpectedDateTime": "2015-12-26T11:36:59",
+            "DisplayTime": "23 min",
+            "Deviations": [ ],
+            "StopPointNumber": "10256"
+          },
+          {
+            "LineNumber": "2",
+            "Destination": "Norrtull",
+            "ExpectedDateTime": "2015-12-26T11:41:50",
+            "DisplayTime": "28 min",
+            "Deviations": [ ],
+            "StopPointNumber": "10982"
+          },
+          {
+            "LineNumber": "2",
+            "Destination": "Sofia",
+            "ExpectedDateTime": "2015-12-26T11:46:42",
+            "DisplayTime": "11:46",
+            "Deviations": [ ],
+            "StopPointNumber": "10256"
+          },
+          {
+            "LineNumber": "66",
+            "Destination": "Reimersholme",
+            "ExpectedDateTime": "2015-12-26T11:48:30",
+            "DisplayTime": "11:48",
+            "Deviations": [ ],
+            "StopPointNumber": "10982"
+          },
+          {
+            "LineNumber": "2",
+            "Destination": "Norrtull",
+            "ExpectedDateTime": "2015-12-26T11:48:50",
+            "DisplayTime": "11:48",
+            "Deviations": [ ],
+            "StopPointNumber": "10982"
+          },
+          {
+            "LineNumber": "66",
+            "Destination": "Sofia",
+            "ExpectedDateTime": "2015-12-26T11:55:16",
+            "DisplayTime": "11:55",
+            "Deviations": [ ],
+            "StopPointNumber": "10256"
+          },
+          {
+            "LineNumber": "2",
+            "Destination": "Sofia",
+            "ExpectedDateTime": "2015-12-26T11:55:25",
+            "DisplayTime": "11:55",
+            "Deviations": [ ],
+            "StopPointNumber": "10256"
+          },
+          {
+            "LineNumber": "2",
+            "Destination": "Norrtull",
+            "ExpectedDateTime": "2015-12-26T11:56:50",
+            "DisplayTime": "11:56",
+            "Deviations": [ ],
+            "StopPointNumber": "10982"
+          },
+          {
+            "LineNumber": "2",
+            "Destination": "Sofia",
+            "ExpectedDateTime": "2015-12-26T12:03:25",
+            "DisplayTime": "12:03",
+            "Deviations": [ ],
+            "StopPointNumber": "10256"
+          },
+          {
+            "LineNumber": "2",
+            "Destination": "Norrtull",
+            "ExpectedDateTime": "2015-12-26T12:03:50",
+            "DisplayTime": "12:03",
+            "Deviations": [ ],
+            "StopPointNumber": "10982"
+          },
+          {
+            "LineNumber": "66",
+            "Destination": "Reimersholme",
+            "ExpectedDateTime": "2015-12-26T12:07:38",
+            "DisplayTime": "12:07",
+            "Deviations": [ ],
+            "StopPointNumber": "10982"
+          },
+          {
+            "LineNumber": "2",
+            "Destination": "Norrtull",
+            "ExpectedDateTime": "2015-12-26T12:10:50",
+            "DisplayTime": "12:10",
+            "Deviations": [ ],
+            "StopPointNumber": "10982"
+          },
+          {
+            "LineNumber": "2",
+            "Destination": "Sofia",
+            "ExpectedDateTime": "2015-12-26T12:11:25",
+            "DisplayTime": "12:11",
+            "Deviations": [ ],
+            "StopPointNumber": "10256"
+          }
+        ],
+        "CurrentServerTime": "11:13",
+        "StopPointDeviations": [ ],
+        "GroupId": "Sofiaskolan#10256",
+        "JourneyProduct": 8
+      }
+    ],
+    "TrainGroups": [ ],
+    "TranCityTypes": [ ],
+    "TramTypes": [ ],
+    "MetroRedGroups": [ ],
+    "MetroGreenGroups": [ ],
+    "MetroBlueGroups": [ ],
+    "ShipGroups": [ ],
+    "HasStopPointDeviations": false,
+    "LastUpdate": "11:13",
+    "Error": null,
+    "HasResultData": true
+  }
+}
