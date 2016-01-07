@@ -1,46 +1,79 @@
 package com.myftiu.jrasp;
 
+import javafx.application.Platform;
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
+import javafx.scene.control.ListCell;
+import javafx.scene.control.ListView;
 import javafx.scene.control.TextField;
+import javafx.scene.layout.GridPane;
+import javafx.scene.text.Text;
 import org.apache.commons.lang.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 public class HelloController
 {
-    private static final Logger log = LoggerFactory.getLogger(HelloController.class);
 
-    @FXML private TextField firstNameField;
-    @FXML private TextField lastNameField;
-    @FXML private Label messageLabel;
+    @FXML private Text cityId;
+    @FXML private Text sunText;
+    @FXML private GridPane forecast;
 
-    public void sayHello() {
+    @FXML private ListView yrTable;
+    @FXML private ListView busTable;
+    @FXML private javafx.scene.control.Button closeButton;
 
-        String firstName = firstNameField.getText();
-        String lastName = lastNameField.getText();
-
-        StringBuilder builder = new StringBuilder();
-
-        if (!StringUtils.isEmpty(firstName)) {
-            builder.append(firstName);
-        }
-
-        if (!StringUtils.isEmpty(lastName)) {
-            if (builder.length() > 0) {
-                builder.append(" ");
-            }
-            builder.append(lastName);
-        }
-
-        if (builder.length() > 0) {
-            String name = builder.toString();
-            log.debug("Saying hello to " + name);
-            messageLabel.setText("Hello " + name);
-        } else {
-            log.debug("Neither first name nor last name was set, saying hello to anonymous person");
-            messageLabel.setText("Hello mysterious person");
-        }
+    public HelloController() {
+        setup();
     }
 
+    private void setup() {
+        //setting table layout
+    }
+
+
+    @FXML
+    private void closeButtonAction(){
+        Platform.exit();
+        System.exit(0);
+    }
+
+
+    public ListView getBusTable() {
+        return busTable;
+    }
+
+    public void setBusTable(ListView busTable) {
+        this.busTable = busTable;
+    }
+
+    public ListView getYrTable() {return yrTable;
+    }
+
+    public void setYrTable(ListView yrTable) {this.yrTable = yrTable;
+    }
+
+    public Text getCityId() {
+        return cityId;
+    }
+
+    public void setCityId(Text cityId) {
+        this.cityId = cityId;
+    }
+
+    public Text getSunText() {
+        return sunText;
+    }
+
+    public void setSunText(Text sunText) {
+        this.sunText = sunText;
+    }
+
+    public GridPane getForecast() {
+        return forecast;
+    }
+
+    public void setForecast(GridPane forecast) {
+        this.forecast = forecast;
+    }
 }

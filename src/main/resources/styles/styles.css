@@ -23,12 +23,45 @@
 
 
 .main-panel {
-    -fx-background-image: url("../images/background.jpg");
+    -fx-background-color: #ffffff;
+    -fx-padding: 0px;
 }
 
-.hello-message {
-    -fx-text-fill: #AA0000;
-    -fx-font-weight: bold;
-    -fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );
+.sl-panel {
+    -fx-background-color: white;
+    -fx-alignment: top-left;
+    -fx-collapsible: false;
+
 }
 
+.yr-panel {
+    -fx-background-color: white;
+    -fx-alignment: top-right;
+    -fx-collapsible: false;
+}
+
+
+.slTable {
+    -fx-border-width: 0, 0, 0, 0;
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-border-insets: 0 0 0 0;
+}
+
+.slTable .scroll-bar:horizontal {
+    -fx-opacity: 0;
+    -fx-padding: -7;
+}
+
+.yrTable {
+    -fx-border-width: 0, 0, 0, 0;
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-border-insets: 0 0 0 0;
+}
+
+.cityStyle {
+}
+
+.sunStyle {
+}
